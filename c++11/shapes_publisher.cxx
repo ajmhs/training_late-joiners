@@ -87,6 +87,7 @@ int main(int argc, char *argv[])
 {
 
     using namespace application;
+    std::srand(std::time(0)); 
 
     // Parse arguments and handle control-C
     auto arguments = parse_arguments(argc, argv);
